@@ -1,0 +1,433 @@
+/* PC、スマホ共通スタイル */
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝ */
+/* トップページ*/
+/* ＝＝＝＝＝＝＝＝＝＝＝ */
+
+/* ヘッダー */
+.header-container{
+  display: flex;
+  text-align: left;
+}
+
+/* ロゴ写真 */
+.logo-img{
+  width: 80px;
+}
+
+/* サイトタイトル */
+.site-title {
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.site-title > a {
+  text-decoration: none;
+}
+.site-title > a:link {
+  color: black;
+}
+.site-title > a:visited { 
+  color: black;
+}
+.site-title > a:hover {
+  color: black;
+}
+.site-title > a:active {
+  color: black;
+}
+
+/* ナビゲーション */
+
+.nav-pc {
+  display: none;
+  font-size: 20px;
+  margin: 20px 0;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.nav-pc a {
+  text-decoration: none;
+}
+.nav-pc a:link {
+  color: black;
+}
+.nav-pc a:visited {
+  color: black;
+}
+.nav-pc a:hover {
+  color: blue;
+}
+.nav-pc a:active {
+  color: blue;
+}
+
+
+/* メイン画像 */
+.rode-img {
+  margin: 60px auto;
+}
+
+/* お知らせ */
+.informaition {
+  text-align: center;
+  margin: auto;
+}
+ 
+/* お知らせ内容 */
+p.text {
+  color: blue;
+}
+
+p.text > a {
+  text-decoration: none;
+}
+
+p.text > a:link { 
+  color: blue;
+}
+
+P.text > a:visited {
+  color: blue;
+}
+
+P.text > a:hover {
+  color: blue;
+}
+
+P.text > a:active {
+  color: blue;
+}
+
+/* 会社挨拶 　写真の上に挨拶文*/
+
+.company-greeting2 {
+  margin: 60px 0 30px 0;
+  height: 300px;
+  background-image: url(images/rode1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:transparent;
+  opacity: 0.8;
+}
+
+.box{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0 0 0;
+  letter-spacing: 0.3rem;
+}
+
+/* 会社案内 */
+.company-brochre-container{
+  height: 150px;
+  padding: 100px 0 0 0;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(images/gazou2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 採用情報 */
+.recruit-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(images/rode7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 舗装工事 */
+.hosou-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(images/rode3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 施工事例 */
+.works-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(images/rode12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 砂利販売 */
+.sales-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(images/jyarisample2.jpg);
+  background-repeat: no-repeat;
+}
+
+/* お見積り */
+.estimate-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(images/rode8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* フッター */
+footer{
+  margin: 10px;
+  text-align: center;
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+.site-title2{
+margin: 0;
+padding: 10px 0 0 0;
+}
+
+.adress{
+  margin: 0;
+}
+/* コピーライト */
+.copyright{
+  font-size: 10px;
+}
+
+/* グーグルマップ */
+.map{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 25%;
+  position: relative;
+  margin: 20px 0;
+}
+
+.map iframe{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* インスタボタン */
+.instagram{
+  margin: 20px auto;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+/* ================= */
+/*会社案内ページ*/
+/* ================= */
+
+/* 会社案内・ご挨拶 */
+.company-title{
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 18px;
+}
+
+.company-nav{
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 12px;
+}
+
+.goaisatu2{
+  margin: 36px 0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+
+.logo-img2{
+  width: 120px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.takahashikenji{
+  width: 300px;
+  margin: auto;
+}
+
+/* 経営方針 */
+.keiei-h3{
+  margin: 20px auto;
+}
+
+/* 会社概要 */
+
+th{
+  background-color: rgb(224, 221, 221);
+  font-size: 16px;
+}
+
+th,td{
+  border: solid 1px;
+  padding: 10px;
+}
+
+table{
+  margin: 40px auto;
+  border-collapse: collapse;
+}
+
+/* 登録許可 */
+.touroku-h3{
+  text-decoration: underline;
+}
+
+/* 加入団体 */
+.kanyu-p{
+
+  text-align: center;
+}
+
+
+
+/* ＊＊＊＊＊＊＊＊＊＊＊＊＊ */
+/* PCスタイル */
+/* ＊＊＊＊＊＊＊＊＊＊＊＊＊ */
+@media(min-width:768px) {
+ 
+ /* ＝＝＝＝＝＝＝＝＝＝＝＝ */
+  /* トップページ */
+  /* ＝＝＝＝＝＝＝＝＝＝＝ */
+
+  /* 横幅設定 */
+  body{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 会社名 */
+  .logo-img{
+    width: 120px;
+  }
+  
+  .site-title{
+    font-size: 36px;
+  }
+  
+  /* ナビゲーションレイアウト */
+  .nav-pc{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h1.center{
+    font-size: 36px;
+    letter-spacing: 30px;
+  }
+  
+  /* 会社挨拶 */
+
+  .box {
+    padding: 20px 0 0 0;
+    font-size: 18px;
+    letter-spacing: 0.5rem;
+  }
+
+  /* 会社案内・採用情報 */
+  .company{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* 舗装工事・施工事例 */
+  .hosou-works{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* 砂利販売・お見積り */
+  .sales-estimate{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  /* ================ */
+  /* 会社案内ページ*/
+  /* ================ */
+
+  /* ご挨拶 */
+
+  .sign{
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-img2{
+    margin: 100px;
+  }
+
+  /* 経営方針 */
+
+  .keiei-1-2-3{
+    display: grid;
+  }
+
+  .keiei-4-5-6{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* 登録・許可 */
+  .touroku-1-2-3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .touroku-4-5{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+}
